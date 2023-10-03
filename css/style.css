@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    list-style: none;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh
+}
+
+.parent {
+    background: cyan;
+    font-size: 30px;
+    padding: 1rem;
+    margin: 0;
+
+
+}
+
+.child1 {
+    background: rebeccapurple;
+}
+
+.child2 {
+    background: salmon;
+    transform: translateX(50px)  ;
+    top:0;
+    position: sticky;
+}
+
+.child3 {
+    background: lightgreen;
+}
